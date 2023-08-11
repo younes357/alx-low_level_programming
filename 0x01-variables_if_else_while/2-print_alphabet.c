@@ -9,7 +9,7 @@
  */
 
 
-int main()
+int main(void)
 	{
 	char ch;
 
@@ -17,6 +17,7 @@ int main()
 	{
 	putchar(ch);
 	}
+	putchar("\n);
 return (0);
 
 }
