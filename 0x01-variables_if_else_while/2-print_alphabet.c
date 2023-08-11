@@ -10,12 +10,11 @@
 
 
 int main(void)
-{
-	
-for (char ch='a'; ch<='z', ch++)
+	{
+	for (char ch = 'a'; ch <= 'z', ch++)
 	{
 	putchar(ch);
 	}
-return(0);
+return (0);
 
 }
