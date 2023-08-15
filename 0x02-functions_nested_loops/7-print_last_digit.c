@@ -4,11 +4,22 @@
  * print_last_digit - determine last digit of number
  * @n: The number to check
  *
- * Return: 1 if lowercase or 0 if not.
+ * Return: last digit.
  */
 
 int print_last_digit(int n)
 {
-	return (n % 10);
-}
+int k;
 
+k = n % 10;
+if (k < 0)
+	{
+	_putchar (-k + 48);
+	return (-k);
+	}
+	else
+	{
+	_putchar (k + 48);
+	return (k);
+	}
+}
