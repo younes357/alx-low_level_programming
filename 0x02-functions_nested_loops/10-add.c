@@ -11,6 +11,6 @@ int add(int m, int n)
 	int p;
 
 	p = n + m;
-i
+
 	return (c);
 }
