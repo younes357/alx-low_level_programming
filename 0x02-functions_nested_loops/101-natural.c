@@ -19,6 +19,6 @@ int main(void)
 	p = p + i;
 	}
 	}
-	printf("%d", p);
+	printf("%d \n", p);
 	return (0);
 }
