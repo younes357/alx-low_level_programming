@@ -2,15 +2,13 @@
 
 /* betty style doc for function main goes there */
 /**
- * print_numbers - Entry point
+ * print_most_numbers - Entry point
  *
  */
 
 
-void print_numbers(void)
-	{
-	int c;
-
+void print_most_numbers(void)
+{
 	for (c = 48 ; c < 58 ; c++)
 	{
 		if (c == 50 || c == 52)
