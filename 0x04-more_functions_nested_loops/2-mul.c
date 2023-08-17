@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _abs - determine abs of n
+ * mul - multiplies two numbers
  * @a: First input
  * @b: Second input
  *
- * Return: a + b.
+ * Return: a * b.
  */
 
 int mul(int a, int b)
 {
-		return (a + b);
+		return (a * b);
 }
