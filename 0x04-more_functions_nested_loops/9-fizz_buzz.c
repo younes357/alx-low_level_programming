@@ -1,11 +1,11 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_line - prints line
- * @n:  lines's lengh
+ * main - entry point
+ * return -  Always 0
  */
 
-void print_line(int n)
+int main(void) 
 {
 	int i;
 
@@ -13,16 +13,17 @@ void print_line(int n)
 	{
 		if (i % 3 == 0)
 		{
-			printf('Fizz');
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%d ", i);
 		}
 
 }
+return (0);
 }
