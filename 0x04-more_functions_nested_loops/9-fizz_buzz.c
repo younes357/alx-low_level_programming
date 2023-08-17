@@ -2,10 +2,10 @@
 
 /**
  * main - entry point
- * return -  Always 0
+ * return:   Always 0
  */
 
-int main(void) 
+int main(void)
 {
 	int i;
 
