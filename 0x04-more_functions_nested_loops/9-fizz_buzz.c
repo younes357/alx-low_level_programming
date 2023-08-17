@@ -2,7 +2,7 @@
 
 /**
  * main-  entry point
- * return:   Always 0
+ * Return:   Always 0 (success).
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		if (i % 3 == 0 && i % 5 != 0)		
+		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz ");
 		}
