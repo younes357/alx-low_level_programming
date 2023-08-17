@@ -13,15 +13,16 @@ void print_numbers(void)
 
 	for (c = 48 ; c < 58 ; c++)
 	{
-	if (c == 50 || c == 52)
-	{
-	continue;
+		if (c == 50 || c == 52)
+		{
+			continue;
+		}
+		else 
+		{
+			_putchar(c);
+		}
 	}
-	else 
-	{
-	_putchar(c);
-	}
-	}
+	
 	_putchar('\n');
 
 }
