@@ -19,6 +19,6 @@ void positive_or_negative(int n)
 		}
 	else
 		{
-		printf("%d is positive\n", n);
+		printf("%d is positive \n", n);
 		}
 }
