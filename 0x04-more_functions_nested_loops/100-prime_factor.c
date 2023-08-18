@@ -33,9 +33,9 @@ int main(void)
 	* when n is a prime number greater than 4
 	*/
 	if (n > 2)
-		max = n;
+		maxPrime = n;
 
-	printf("%ld\n", max);
+	printf("%ld\n", maxPrime);
 
 	return (0);
 }
