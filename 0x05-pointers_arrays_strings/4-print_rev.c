@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _puts - input function.
+ * print_rev - input function.
  * @str: input
  *
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 int j, i = 0;
 
