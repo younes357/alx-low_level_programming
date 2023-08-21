@@ -12,7 +12,7 @@ while (1)
 {
 	if (*str != '\0')
 	{
-		s++;
+		str++;
 		i++;
 	}
 	else
@@ -22,11 +22,10 @@ while (1)
 }
 
 
-for (j = i; j > 0; j--)
+for (j = 0; j <= i; j--)
 	{
 	
-	_putchar(*(str + j));
-
+	_putchar(*(str - 1));
 }
 _putchar('\n');
 }
