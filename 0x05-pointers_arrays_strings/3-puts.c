@@ -6,5 +6,17 @@ include "main.h"
  */
 void _puts(char *str)
 {
-_putchar(str);
+	while (1)
+	{
+		if (*str != '\0')
+		{
+			_putchar(*str);
+			str++;
+		}
+		else
+		{
+			break;
+		}
+}
+_putchar('\n');
 }
