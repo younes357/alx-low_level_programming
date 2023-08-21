@@ -10,9 +10,9 @@ int j, i = 0;
 
 while (1)
 {
-	if (*str != '\0')
+	if (*s != '\0')
 	{
-		str++;
+		s++;
 		i++;
 	}
 	else
@@ -25,7 +25,7 @@ while (1)
 for (j = 0; j <= i; j--)
 	{
 	
-	_putchar(*(str - 1));
+	_putchar(*(s - 1));
 }
 _putchar('\n');
 }
