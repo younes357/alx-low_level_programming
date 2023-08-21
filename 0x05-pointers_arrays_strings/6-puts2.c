@@ -2,7 +2,7 @@
 
 /**
  * puts2 - input function
- * 
+ *
  * @str: input
  */
 void puts2(char *str)
