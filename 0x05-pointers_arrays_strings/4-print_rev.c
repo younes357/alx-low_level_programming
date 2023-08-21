@@ -21,7 +21,7 @@ s--;
 
 for (j = 0; j < i; j++)
 {
-_putchar(*(s - j)); 
+_putchar(*(s - j));
 }
 
 _putchar('\n');
