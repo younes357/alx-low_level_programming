@@ -6,7 +6,7 @@
  */
 void _puts(char *str)
 {
-int i = _strlen(*str)
+int i = _strlen(str)
 int j;
 
 	for (j = i; j > 0; j--)
