@@ -8,20 +8,20 @@ void print_rev(char *s)
 {
 int j, i = 0;
 
-// Calculate the length of the string
+
 while (*s != '\0')
 {
 s++;
 i++;
 }
 
-// Move back to the last character in the string
+
 s--;
 
-// Print characters in reverse order
+
 for (j = 0; j < i; j++)
 {
-_putchar(*(s - j)); // Print characters in reverse order
+_putchar(*(s - j)); 
 }
 
 _putchar('\n');
