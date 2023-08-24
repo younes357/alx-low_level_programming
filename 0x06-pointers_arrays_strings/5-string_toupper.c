@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - inverses cases of string
- * 
+ *
  * @s: input string
  *
  * Return: the resulting string
