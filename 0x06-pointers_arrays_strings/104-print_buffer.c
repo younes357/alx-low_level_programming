@@ -3,8 +3,8 @@
 /**
  * print_line - input function
  * @c: buffer
- * @s: bytes of buffer 
- * @l: line of buffer 
+ * @s: bytes of buffer
+ * @l: line of buffer
  *
  * Return: void
  */
