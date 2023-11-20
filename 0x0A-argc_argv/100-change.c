@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 
 int c[] = {25, 10, 5, 2, 1};
-int p = atoi(argv[1]), i=0;
+int p = atoi(argv[1]), i = 0, n = 0;
 if (argc != 2)
 {       
         printf("Error\n");
