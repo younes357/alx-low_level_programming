@@ -24,7 +24,7 @@ if (p < 0)
 	return (0);
 }
 
-for (i = 0; i < 5 ; i++)
+for (i = 0; i < 5 && p >= 0 ; i++)
 {
 	while (p >= c[i])
 	{
