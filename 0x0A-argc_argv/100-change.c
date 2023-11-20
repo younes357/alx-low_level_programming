@@ -11,12 +11,13 @@ int main(int argc, char *argv[])
 {
 
 int c[] = {25, 10, 5, 2, 1};
-int p = atoi(argv[1]), i = 0, n = 0;
+int i = 0, n = 0, p;
 if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
+p = atoi(argv[1]);
 
 if (p < 0)
 {
@@ -24,7 +25,7 @@ if (p < 0)
 	return (0);
 }
 
-for (i = 0; i < 5 && p >= 0 ; i++)
+for (i = 0; i < 5; i++)
 {
 	while (p >= c[i])
 	{
