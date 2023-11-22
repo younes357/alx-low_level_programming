@@ -22,6 +22,6 @@ if (s == NULL)
 {
 	return (NULL);
 }
-strcpy(s,str);
+strcpy(s, str);
 return (s);
 }
