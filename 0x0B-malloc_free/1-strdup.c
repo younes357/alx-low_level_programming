@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <string.h>
 
 /**
  * _strdup - creates reprint input array
@@ -10,9 +10,18 @@
  */
 char *_strdup(char *str)
 {
-char *s, *p;
-s = malloc(sizeof(char));
-s = str;
-p = s;
-return (p);
+char *s;
+int size;
+if (str == NULL)
+{
+	return (NULL);
+}
+size = strlen(str) + 1;
+s = malloc(size);
+if (s == NULL)
+{
+	return (NULL);
+}
+strcpy(s,str);
+return (s);
 }
