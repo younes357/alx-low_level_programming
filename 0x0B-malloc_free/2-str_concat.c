@@ -18,13 +18,21 @@ if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
 }
+else if (s1 == NULL && s2 != NULL)
+{
+s1 = "";
+}
+else if (s1 != NULL && s2 == NULL)
+{
+s2 = "";
+}
 size = strlen(s1) + strlen(s2) + 1;
 c = malloc(size);
 if (c == NULL)
 {
 return (NULL);
 }
-c = strcpy(c, s1);
-c = strcat(c, s2);
+strcpy(c, s1);
+strcat(c, s2);
 return (c);
 }
