@@ -16,7 +16,7 @@ char *c;
 int size;
 if (s1 == NULL && s2 == NULL)
 {
-s1 = ""; 
+s1 = "";
 s2 = "";
 }
 else if (s1 == NULL && s2 != NULL)
