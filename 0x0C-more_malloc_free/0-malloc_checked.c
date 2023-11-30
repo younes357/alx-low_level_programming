@@ -12,7 +12,7 @@ o = (void *) malloc(b);
 
 if (o == NULL)
 {
-exit (98);
+exit(98);
 }
 return (o);
 }
