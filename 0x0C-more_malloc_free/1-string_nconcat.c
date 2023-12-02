@@ -3,6 +3,15 @@
 #include "main.h"
 #include <string.h>
 
+/**
+* string_nconcat - concatenates two strings.
+* @s1: First string.
+* @s2: Second string.
+* @n: number of bytes of s2 concatenated to s1 .
+*
+* Return: pointer to s1 + n*s2.
+* 
+*/
 
 
 
