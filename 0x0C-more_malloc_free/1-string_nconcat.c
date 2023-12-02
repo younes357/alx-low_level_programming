@@ -43,7 +43,7 @@ for (i = 0; i < n && s2[i] != '\0'; i++)
 s[len + i] = s2[i];
 }
 
-s[size] = '\0';
+s[size - 1] = '\0';
 
 return (s);
 
