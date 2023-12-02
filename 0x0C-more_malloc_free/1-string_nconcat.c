@@ -19,7 +19,7 @@ char *s;
 unsigned int size, i;
 
 
-size = sizeof(s1) + n + 1;
+size = sizeof(s1) + n
 if (s1 == NULL)
 	s1 = "";
 if (s2 == NULL)
