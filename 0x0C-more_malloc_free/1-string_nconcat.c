@@ -13,10 +13,12 @@ unsigned int size, i;
 
 
 size = strlen(s1) + n + 1;
-if (s1 == NULL || s2 == NULL)
-{
-	return ("");
-}
+if (s1 == NULL)
+	s1 = "";
+if (s2 == NULL)
+	s2 = "";
+
+
 s = malloc(size);
 if (s == NULL)
 {
