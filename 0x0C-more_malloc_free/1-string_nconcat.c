@@ -40,7 +40,7 @@ s[i] = s1[i];
 
 for (i = 0; i < n && s2[i] != '\0'; i++)
 {
-s[len + i + 1] = s2[i];
+s[len + i] = s2[i];
 }
 
 s[len + i] = '\0';
