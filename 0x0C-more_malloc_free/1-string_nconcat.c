@@ -19,7 +19,7 @@ char *s;
 unsigned int size, i, len = 0;
 
 for (i = 0; s1[i]; i++)
-		len++;
+	len++;
 
 size = len + n + 1;
 if (s1 == NULL)
