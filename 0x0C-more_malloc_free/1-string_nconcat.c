@@ -30,7 +30,7 @@ for (i = 0; i < n; i++)
 s[strlen(s1)+i] = s2[i];
 }
 
-
+s[strlen(s1) + i] = '\0';
 
 
 
