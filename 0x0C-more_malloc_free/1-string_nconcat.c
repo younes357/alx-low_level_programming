@@ -33,7 +33,7 @@ if (s == NULL)
 return (NULL);
 }
 strcpy(s, s1);
-for (i = 0; i =< n; i++)
+for (i = 0; i < n; i++)
 {
 s[strlen(s1) + i] = s2[i];
 }
