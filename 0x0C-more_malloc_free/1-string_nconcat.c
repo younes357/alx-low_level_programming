@@ -10,7 +10,6 @@
 * @n: number of bytes of s2 concatenated to s1 .
 *
 * Return: pointer to s1 + n*s2.
-* 
 */
 
 
@@ -33,10 +32,10 @@ if (s == NULL)
 {
 return (NULL);
 }
-strcpy(s,s1);
+strcpy(s, s1);
 for (i = 0; i < n; i++)
 {
-s[strlen(s1)+i] = s2[i];
+s[strlen(s1) + i] = s2[i];
 }
 
 s[strlen(s1) + i] = '\0';
